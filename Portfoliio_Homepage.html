@@ -1,0 +1,287 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <style>
+        body {
+
+            margin: 59px 122px 75px 122px;
+            font-family: 'Noto Sans';
+            font-size: 22px;
+        }
+        .navigation{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-bottom: 76px;
+        }
+        .navigation>a{
+            color: #959596;
+            margin: 0px 15px;
+            text-decoration: none; 
+        }
+        .navigation_link{
+
+        }
+        .hero{
+            width: 1115px;
+            height: 292;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 136px;
+        }
+        h1 {
+            font-style: bold;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 76px;
+            color: #3F7B94;
+        }
+
+
+
+        .intro {
+            /* A visual designer creating online experiences through data and framework */
+
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 33px;
+            line-height: 45px;
+            color: #959596;
+        
+        }
+        .heashot{
+            height:292px;
+            width:292px;
+            border-radius: 65%;
+            min-width: 292px;
+            margin-right: 67px;
+            background-image: url("images/Head_Shot.png");
+            background-size: contain;
+
+        }
+        .primaryProject {
+            height: 214px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 56px;
+           
+        }
+        .primaryProject_image {
+            height: 100%;
+            width: 50%;
+            background-image: url("Images/eco_eats.png");
+            object-fit: cover;
+        }
+        .primaryProject_text{
+            height: 100%;
+            width: 50%;
+            background-color: #6B6C6C;
+        }
+        .eco {
+
+            /* Eco Eats */
+
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+
+          
+        }
+        
+        .ecoText{
+
+            /* A recipe app designed to store and discover recipes, as well as help reduce food waste */
+            
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+            
+
+            padding-top: 0;
+            padding-right: 89px;
+            padding-bottom: 0px;
+            padding-left: 89px;
+           
+
+        }
+
+        .threeProjects{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width:100%;
+            margin: 0 0 22px 0;
+            }
+    
+        .athreeProjects_project{
+            height: 214px;
+            width: 380px;
+            background-image: url("Images/undercurrent.png");
+            object-fit: cover;
+        }
+        .bthreeProjects_project{
+            height: 214px;
+            width: 380px;
+            background-image: url("Images/government.png");
+            object-fit: cover;
+            }
+
+        .cthreeProjects_project{
+            height: 214px;
+            width: 380px;
+            background-image: url("Images/travel.png");
+            object-fit: cover;}
+
+            .grid-container1{
+            background: white;
+            max-width: 100%;
+            margin: 0 0 93 0;
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+        }
+
+        .grid-container1 > div {
+                text-align: center;
+                padding: 20px;
+
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #959596;}
+
+
+        .skills{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            color: #3F7B94;
+            margin: 0 0 8px 0;
+            display: flex;
+        }
+        .grid-container{
+            background: white;
+            max-width: auto;
+            margin: 27 0 93 0;
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            
+            }
+            .grid-container > div {
+                background: white;
+                text-align: center;
+                padding: 20px;
+
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #959596
+                }
+     
+      
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+        }
+        .footertext {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            color: #3F7B94;
+            margin: 0 0 8px 0;
+            display: flex;
+        }
+        .footer {
+            color: #959596;
+            text-decoration: none;
+        }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <a class="navigation_link" href="#">Home</a>
+        <a class="navigation_link" href="#">Resume</a>
+        <a class="navigation_link" href="#">Contact</a>
+    </div>
+   
+    <div class="hero">
+        <div class="heashot"></div>
+        <div>
+            <h1>Hello, I am Michael Oyler</h1>
+            <p class="intro">A visual designer creating online experiences through data and framework</p>
+        </div>   
+    </div>
+    <div class="primaryProject">
+            <div class= "primaryProject_image"> </div>
+            <a href="https://www.google.com/" class= "primaryProject_text"> 
+                <h2 class="eco"> ECO EATS </h2>
+                <p class="ecoText"> A recipe app designed to store and discover recipes, as well as help reduce food waste</p>
+            </a>
+
+    </div>
+    <div class="threeProjects">
+        <div class="athreeProjects_project" ></div>
+        
+        <div class="bthreeProjects_project"></div> 
+        
+        <div class="cthreeProjects_project"></div>
+    </div>
+
+    <div class="grid-container1">
+        <div>NON PROFIT REDESIGN</div>
+        <div>GOVERNMENT AGENCY REDESIGN </div>
+        <div>ROAD TRIP APP DESIGN</div>
+        
+     </div>
+    
+    <div class="skills">My UX Skills</div>
+
+    <div>
+
+    <div>
+        
+        <div class="grid-container">
+           <div>USER RESEARCH</div>
+           <div>USER INTERFACE DESIGN </div>
+           <div>WEB DEVELOPMENT</div>
+           <div>analytical thinking, usabiliy testing, journey mapping, story boarding and concept development</div>
+           <div>wireframing, prototyping, style guides, typography, branding and color theroy</div>
+           <div>HTML, CSS, Java Script and jQuery</div>
+           
+        </div>
+
+    </div>
+    
+    <div class="footer">
+        <p class="footertext">Let's connect!</p>
+        <a href="#">mioyl84@gmail.com</a>
+    </div>
+</body>
